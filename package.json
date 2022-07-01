@@ -5,7 +5,8 @@
   "main": "zeeone.js",
   "license": "MIT",
   "scripts": {
-    "start": "node zeeone.js"
+    "start": "./node_modules/.bin/netlify-lambda server src"
+    "build": "zeeone.js"
    },
   "keywords": [
     "whatsapp",
